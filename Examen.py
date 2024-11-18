@@ -1,11 +1,11 @@
 #Baca Lopez Jose Joaquin
 #Nolasco Alejandro
-from pprint import pformat
+
 
 from sqlalchemy import create_engine
 import pandas as pd
 
-from Projects.transformacion_datos import crear_DF
+
 
 
 def insercion_datos(ruta_csv, user, password, server, database):
